@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/miSettings"
+        android:icon="@mipmap/ic_settings"
+        android:title="Settings"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/miAddContact"
+        android:icon="@mipmap/ic_add_contact"
+        android:title="Add Contact"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/miFavourites"
+        android:icon="@mipmap/ic_favourite"
+        android:title="Favourites"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/miFeedback"
+        android:title="Give Feedback"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/miClose"
+        android:title="Close"
+        app:showAsAction="never" />
+
+</menu>
+
+    <!-- Il titolo fa da tooltip se c'è l'icona -->
+    <!-- ifRoom se c'è spazio mostra l'ucona sennò la mette nel menu -->
